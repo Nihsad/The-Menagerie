@@ -11,3 +11,15 @@ header {
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center; }
+  header h1 {
+    font-family: var(--body-script);
+    font-size: 6vw; }
+  header a {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0 auto;
+    text-decoration: none;
+    color: var(--light); }
+  header span {
+    font-family: var(--body-block); }
